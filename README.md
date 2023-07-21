@@ -569,3 +569,13 @@ decrypted_message = jedi(encrypted_message, key_for_decryption)
 print("Decrypted message: " + decrypted_message)
 
 ```
+## Macro Shot
+### Description
+Does the ancient Word document discovered on one of the Hexagon computers contain any valuable information for us?<br/>
+![photo](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/mq.png)<br/>
+#### Solution
+We open the given file to see a bunch of random numbers. Upon closer inspection, we find out that these are ascii codes separated by 0s so we remove the 0s and replace them with spaces . Then we convert the ascii code to text to find the flag.
+After removing 0’s:<br/>
+![photo](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/mqq.png)<br/>
+Ascii to text :<br/> 
+![photo](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/macro.png)
