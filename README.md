@@ -94,6 +94,7 @@ use audacity spectogram to find the flag hidden in the given audio file
 Your team has assigned you the responsibility of infiltrating the enemy's server, and after extensive effort, your team has successfully gained access. Within the server, a folder has been discovered. Now, your team has tasked you with extracting all available information from this file, as they are aware that it contains significant and valuable data.
 #### Solution
 unzip the given zip file there is a image and two pdf file protected by a password. extract the metadata of image 
-```	mu : E09B4AFC22A3E578D77A90D73363C8A5
+```
+mu : E09B4AFC22A3E578D77A90D73363C8A5
 pwd : EFBE43500C80151A5D7608400FD21BB9
 ```
