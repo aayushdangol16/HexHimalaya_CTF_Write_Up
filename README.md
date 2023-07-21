@@ -75,3 +75,8 @@ Note: Ask our bots, in the designated channels.
 ask flag to bot on discord using ```!flag```
 
 # Forensics
+## James Webb
+### Description:
+We have come across an image file from a covert channel called HexagonFlags, which is known for discreetly transporting flags. Can you analyze the image and see if you can find any useful information?
+#### Solution
+use https://www.aperisolve.com/ to get flag hidden on the image
