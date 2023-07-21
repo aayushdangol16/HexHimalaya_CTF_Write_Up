@@ -215,3 +215,12 @@ function changeText() {
 4354467B57335F525F5337314C4C5F483352337D
 ```
 decode it flag is ready for you
+## Grandma's Cookie
+### Description:
+HQ,
+
+Reconnaissance has uncovered an outdated HEx Galactics website, which may potentially contain an insecure administration portal. Requesting your assistance in investigating the website for any vulnerabilities. Historically, HEx Galactics has not been known for employing top-tier developers.
+```https://hex-galactics.netlify.app/```
+Awaiting your findings, HQ
+
+#### Solution
