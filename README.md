@@ -586,3 +586,84 @@ Hexagon gave java a shot, and he made a simple program to authenticate users. Ca
 #### Solution
 Opening the given java file, we find the check password function and by looking at the indices of characters in the password, we manually arranged the characters at indices 0-24 to find the flag.<br/>
 ![photo](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/reverse.png)
+
+## Banksy
+### Description
+In the dumpster behind Hexagon headquarters, we stumbled upon a collection of shredded document fragments. Could you help us reconstruct the pieces and unveil the hidden message, like unraveling a Banksy artwork?
+#### Solution
+We have provided a fragments of a shredded papper.
+We combine those fragments horizontally  by a script i.e:
+```
+import numpy as np
+import cv2 as cv
+
+def Combine_Images_Horizontally(images, spacing=0):
+    num_images = len(images)
+    
+    if num_images == 0:
+        raise ValueError("List of images is empty.")
+
+    # Find the maximum height and total width of all images
+    max_height = max(img.shape[0] for img in images)
+    total_width = sum(img.shape[1] for img in images) + (num_images - 1) * spacing
+
+    # Create a new blank image with the combined size
+    new_image = np.zeros((max_height, total_width, 3), np.uint8)
+
+    # Place each image in the new combined image
+    x_offset = 0
+    for img in images:
+        new_image[:img.shape[0], x_offset:x_offset + img.shape[1]] = img
+        x_offset += img.shape[1] + spacing
+
+    return new_image
+
+def main():
+    image_paths = [
+        "banksy4040.png",
+        "banksy4642.png",
+        "banksy8461.png",
+        "banksy13400.png",
+        "banksy14346.png", #blank
+        "banksy17960.png",
+        "banksy3542.png",
+        "banksy1694.png",
+        "banksy7089.png", 
+        "banksy1622.png", 
+        "banksy11345.png",
+        "banksy17882.png", 
+        "banksy14452.png", 
+        "banksy7681.png",
+        "banksy8340.png",
+        "banksy2453.png",
+        "banksy14797.png",
+        "banksy2561.png",
+        "banksy18410.png",
+        "banksy3554.png",
+        "banksy9240.png", #correct
+        "banksy3722.png",
+        "banksy7892.png",
+        "banksy6313.png",
+        "banksy16201.png",
+        
+        # Add the paths for the remaining 22 images here
+        # For example: "image3.png", "image4.png", ... , "image24.png"
+    ]
+
+    images = [cv.imread(path) for path in image_paths]
+
+    try:
+        New_Combined_Image = Combine_Images_Horizontally(images)
+        cv.imwrite("Horizontally_Combined_Image.png", New_Combined_Image)
+        print("Combined image saved as 'Horizontally_Combined_Image.png'")
+    except Exception as e:
+        print(f"Error: {str(e)}")
+
+    input("Please Enter to Continue...")
+
+if __name__ == '__main__':
+    main()
+
+```
+![photo](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/Horizontally_Combined_Image.png)<br/>
+Then we obtain a unshredded papper and on that papper we note down the letters in which are blod and arranging them in a sequence we get our flag.
