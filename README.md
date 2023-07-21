@@ -91,6 +91,7 @@ Your team has sent you an email with an audio file that they are unable to under
 Note: Write the flag as CTF{<answer>} with spaces replaced by '_'
 #### Solution
 use audacity spectogram to find the flag hidden in the given audio file
+![radio](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/radio.png)
 ## Black Box
 ### Description:
 Your team has assigned you the responsibility of infiltrating the enemy's server, and after extensive effort, your team has successfully gained access. Within the server, a folder has been discovered. Now, your team has tasked you with extracting all available information from this file, as they are aware that it contains significant and valuable data.
