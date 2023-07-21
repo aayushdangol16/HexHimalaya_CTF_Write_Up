@@ -189,3 +189,8 @@ In a challange we have been given a zip file. It contain ```.git``` lets go thro
 Have you ever heard of bots crawling through the internet??
 #### Solution
 We have given a ```https://hexrobots.netlify.app/``` From the challange name ```robots``` its like a robots.txt go to ```https://hexrobots.netlify.app/robots.txt``` there is a path ```https://hexrobots.netlify.app/10122003.html``` go to that path we will get our flag
+## Never Gonna Give You Up
+### Description:
+Find what is in between the files.
+#### Solution
+we have given a link ``` https://hex-nevergonnagiveyouup.netlify.app/1.html``` while opening that link it will redirect to ```https://hex-nevergonnagiveyouup.netlify.app/2.html``` then ```https://hex-nevergonnagiveyouup.netlify.app/3.html``` and finally it will redirect to youtube video. view the source code ```view-source:https://hex-nevergonnagiveyouup.netlify.app/2.html``` flag is ready for you :)
