@@ -78,6 +78,7 @@ ask flag to bot on discord using ```!flag```
 ## James Webb
 ### Description:
 We have come across an image file from a covert channel called HexagonFlags, which is known for discreetly transporting flags. Can you analyze the image and see if you can find any useful information?
+![flag](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/flag.jpg)
 #### Solution
 use https://www.aperisolve.com/ to get flag hidden on the image
 ## Radio Head
