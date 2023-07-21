@@ -183,3 +183,9 @@ In a challange we have been given a zip file. It contain ```.git``` lets go thro
 ![log](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/gitlog.png) <br /> <br />
 ``` git show 864c3eacfff68dd1a4ec570836213ee6afbebdf3 ``` </br></br>
 ![log](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/gitshow.png)
+# Web Exploitation
+## Robots
+### Description:
+Have you ever heard of bots crawling through the internet??
+#### Solution
+We have given a ```https://hexrobots.netlify.app/``` From the challange name ```robots``` its like a robots.txt go to ```https://hexrobots.netlify.app/robots.txt``` there is a path ```https://hexrobots.netlify.app/10122003.html``` go to that path we will get our flag
