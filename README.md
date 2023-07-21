@@ -44,7 +44,7 @@ One of our crucial local transportation vehicle was stolen! Help us find the cur
 ```
 from the given image we find aircraft number , using that number we find the company that owns the aircraft on https://opencorporates.com/companies/us_ak/10019092 the flag was the names of the owners
 
-##Crypto Zoo
+## Crypto Zoo
 ### Description:
 Could you please help me find the transaction ID for a recent transfer of 1,000,000,000 DX from the hacker's wallet that occurred on November 26, 2020? The funds were stolen from Kucoin, a well-known cryptocurrency exchange.
 
@@ -57,4 +57,4 @@ On this page, it is possible to download a CSV with the trade history for this c
 
 So the flag is:
 
-vulncon{0xfdef5b6f6dece6b29695b9fd8d0cadaff944876e598fd443125e1f8c2db15160}
+CTF{0xfdef5b6f6dece6b29695b9fd8d0cadaff944876e598fd443125e1f8c2db15160}
