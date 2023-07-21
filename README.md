@@ -259,3 +259,58 @@ const second = "DMtbTFMay1qdTU3LW";
 const third = "ZsMDRUNS00VzR5IX0=";
 ```
 ```Q1RGe2J1Ny03aDMtbTFMay1qdTU3LWZsMDRUNS00VzR5IX0=``` decode it we will get flag
+## HEx Mainframe
+### Description:
+Your team has been tipped by one of the rebels of a weak vulnerability in HEx' mainframe database. Pretending to be HEx', crack the password, and breach into its mainframe where classified information is stored. Be careful though, as HEx’ robots are always on high alert and they keep changing the password.
+Link:```https://hex-mainframe.netlify.app/```
+#### Solution
+view the page source,there is a python code which is commented
+```
+
+        import hashlib
+
+        def hash_pw(pw_str):                         
+            pw_bytes = bytearray()
+            pw_bytes.extend(pw_str.encode())
+            m = hashlib.md5()
+            m.update(pw_bytes)
+            return m.digest()
+```
+i guess this code is been used for hashing the password.lets move forward, from ```https://hex-mainframe.netlify.app/robots.txt``` we will get two file
+```
+ /records.html
+ /3outof3.html
+```
+from ```https://hex-mainframe.netlify.app/records.html``` we will get list of possible passwords,downloading possible passwords file may be helpfull on further
+from ```https://hex-mainframe.netlify.app/script.js``` we get ```//correct hash is b'\x00u@3 (1/3)``` 
+from ```https://hex-mainframe.netlify.app/style.css``` we get ```/* \xde\x19dD\xc1\tO (2/3) */```
+from ```https://hex-mainframe.netlify.app/3outof3.html``` we get ```\x9d\x9f\xf45\x8f' (3/3)```
+combining above hash ```\x00u@3\xde\x19dD\xc1\tO\x9d\x9f\xf45\x8f``` it is correct hash from possible passwords, now from possible passwords, hash it and compare to ```\x00u@3\xde\x19dD\xc1\tO\x9d\x9f\xf45\x8f``` we will get password. lets write some script
+```
+import hashlib
+i=0
+a=open("file.txt","r")
+s=a.read()
+s = s.replace("'", "") 
+s=s.replace(" ","") 
+name_list = s.split(",")  
+def hash_pw(pw_str):
+    pw_bytes = bytearray()
+    pw_bytes.extend(pw_str.encode())
+    m = hashlib.md5()
+    m.update(pw_bytes)
+    return m.digest()
+
+
+while(i<len(name_list)):
+    pwhash=hash_pw(name_list[i])
+    if pwhash == b'\x00u@3\xde\x19dD\xc1\tO\x9d\x9f\xf45\x8f':
+        print("yes found")
+        print(name_list[i])
+        exit(0)
+    i=i+1
+
+```
+password is ```34r7h```
+from ```https://hex-mainframe.netlify.app/script.js``` username is ```HEX``` we got username and password login it grab the flag
+
