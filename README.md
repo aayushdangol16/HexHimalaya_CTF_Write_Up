@@ -346,3 +346,23 @@ In this challenge, we were given some codes. As the topic was the imitation game
 I chose the tool as enigma machine and got the Flag.<br/>
 ![nepal](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/nepal.png)<br/>
 
+## Breaking Bad
+### Description:
+You discover that dangerous chemical weapons are being transported to the enemy base with the intention of using them against you and your allies. Taking matters into your own hands, you manage to seize the supplies, only to find that they are securely locked in a container that requires a passcode to open. Given the nature of these chemicals, it is crucial to handle them safely, and having some knowledge in chemistry will be advantageous. It is important to remember that all substances are made up of elements, each possessing unique chemical and physical properties, and they cannot be transformed into different substances through typical chemical reactions. As a chemistry enthusiast, your task is to decrypt the passcode.
+
+1 AD 53 EG 45 84 39 22 E 7 T 8 53 A 15 L
+
+1 59 53 47 113 84 85 23 E 7 T 15 53 73 L
+
+P.S.- Prime numbers are exceptional indices 😁
+#### Solution
+I arranged the both row of passcode by replacing the number by the elements symbol and find the common words in both rows i.e:
+
+```
+HADIEGRHPOYTIENTOIAPL
+
+HPRIAGNHPOATVENTPITAL
+
+COMMON:HIGHPOTENTIAL```
+
+```FLAG:CTF{HIGHPOTENTIAL}```
