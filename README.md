@@ -104,3 +104,35 @@ en3my
 def3nd3r
 ```
 use this decoded password to open pdf file. on Beta_msg.pdf some text where redact. copy all the text ``` ctr + a ``` and paste on a text file then redact text will be visible,it contain some portion of the flag. on Mu_msg.pdf there is a image of morse code, decode it to get remaining portion of flag, merge two portion to get the flag.
+## Base HEx
+### Description:
+Robot16, your secret agent operating within the enemy base, possesses vital information that could significantly influence the outcome of the war in your favor. Unfortunately, Robot16 is currently experiencing internal problems that prevent it from translating the information. However, Robot16 managed to bring back a file. Your urgent task is to decipher the contents of this file and extract the crucial information before time runs out.
+#### Solution
+unzip the given zip file which contain  2 pdf file(one is password protected) , image file and a zip file. open op3nm3_f1r5t.pdf it contain
+```
+OP3NM3_F1R5T
+This file contains the main part of the key to find the flag
+for this question.
+You must solve these both questions to find the hint
+1) A word is given to you, rotate it like Julius Caesar with 
+the help of the robot. The word is : m4b
+2) A word is given to you, rotate it like Julius Caesar with 
+the help of the robot. The word is : pev
+Combine both these answers to get your hint for this question.
+Note : Numbers are numbers.
+```
+solving this we get ```c4rful ``` which was the name of the image. using this open aft3r_fir5t.pdf , some text were hidden copy all the text and paste on a text-file
+hidden text will be visible
+```
+Welcome!!
+Welcome!!!
+I appreciate your effort for finding the password for
+this file
+THis document doesn’t helps you.
+```
+haha this document doesn't helps you, lets unzip the zip file which contain 123 text file. there is a file named ``` File-c4rful``` opening it there is a password and url
+```
+https://www.pelock.com/products/steganography-online-codec####
+PASSWORD:4416
+```
+using it we will get our flag
