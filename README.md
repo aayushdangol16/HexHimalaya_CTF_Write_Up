@@ -579,3 +579,10 @@ After removing 0’s:<br/>
 ![photo](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/mqq.png)<br/>
 Ascii to text :<br/> 
 ![photo](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/macro.png)
+
+## Reverse Me
+### Description
+Hexagon gave java a shot, and he made a simple program to authenticate users. Can you crack through it?
+#### Solution
+Opening the given java file, we find the check password function and by looking at the indices of characters in the password, we manually arranged the characters at indices 0-24 to find the flag.<br/>
+![photo](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/reverse.png)
