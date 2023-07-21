@@ -18,4 +18,4 @@ Searching ASN and ISP of 157.240.241.35 on https://hackertarget.com/as-ip-lookup
 During our surveillance of Phein's networks, our recon team successfully acquired intel indicating the enemy's diminished strength. Consequently, they sought aid from Hexagon and shared the coordinates of their hidden stronghold. However, pincode of the location was encoded within an image that only Hexagon could decipher. Our recon team relayed this information to us, and now we are tasked with precisely identifying the location. Once determined, our team will proceed to the site and eliminate the remaining enemy forces.
 
 #### Solution
-Reverse search the given png image on https://yandex.co/. Now we get the clear image,in image there is a url, opening the url we find the location on the address section
+Reverse search the given png image on https://yandex.com We get the clear image,in image there is a url, opening the url we find the location on the address section
