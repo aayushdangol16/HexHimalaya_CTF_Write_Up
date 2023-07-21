@@ -1,6 +1,6 @@
-# HexHimalaya_CTF_Write_Up
+# HexHimalaya_CTF_Write_Up (By Team JERRY)
 # Getting Started
-## Learn to submit flag
+## 1.Learn to submit flag
 ### Description:
 Flags are case sensitive and all flags should be wrapped in CTF{<answer>}.
 
@@ -11,7 +11,7 @@ In description there is a flag
 
 
 # OSINT
-## Mysterious IP
+## 2.Mysterious IP
 ### Description:
 157.240.241.35
 What is the ASN number and isp of the ip address?
@@ -20,13 +20,13 @@ Flag format: CTF{ASNnumber_ISP}
 #### Solution
 Searching ASN and ISP of 157.240.241.35 on https://hackertarget.com/as-ip-lookup/ 
 
-## Pincode
+## 3.Pincode
 ### Description:
 During our surveillance of Phein's networks, our recon team successfully acquired intel indicating the enemy's diminished strength. Consequently, they sought aid from Hexagon and shared the coordinates of their hidden stronghold. However, pincode of the location was encoded within an image that only Hexagon could decipher. Our recon team relayed this information to us, and now we are tasked with precisely identifying the location. Once determined, our team will proceed to the site and eliminate the remaining enemy forces. 
 #### Solution
 Reverse search the given png image on https://yandex.com We get the clear image,in image there is a url, opening the url we find the location on the address section
 
-## Grounded
+## 4.Grounded
 ### Description:
 Hexagon has decided where to attack the next. He only attacks centre of administration of a country. We have intercepted his travel logs from one of our spy. Going through his travel logs, we came across a picture of a socket. Help our team to identify, where is he going to attack ?
 
@@ -36,7 +36,7 @@ Note: Enter the flag as CTF{<answer>} with spaces replaced by '_'
 #### Solution
 The socket given in image used in Israel , The central administration of the country is Jerusalem which is the flag
 
-## HelicopterrHelicopterr
+## 5.HelicopterrHelicopterr
 ### Description: 
 You have received a secret message from a squadron of the rebel alliance on Pheins:
 
@@ -51,7 +51,7 @@ One of our crucial local transportation vehicle was stolen! Help us find the cur
 ```
 from the given image we find aircraft number , using that number we find the company that owns the aircraft on https://opencorporates.com/companies/us_ak/10019092 the flag was the names of the owners
 
-## Crypto Zoo
+## 6.Crypto Zoo
 ### Description:
 Could you please help me find the transaction ID for a recent transfer of 1,000,000,000 DX from the hacker's wallet that occurred on November 26, 2020? The funds were stolen from Kucoin, a well-known cryptocurrency exchange.
 
@@ -66,7 +66,7 @@ So the flag is:
 
 CTF{0xfdef5b6f6dece6b29695b9fd8d0cadaff944876e598fd443125e1f8c2db15160}
 # Miscellaneous
-## M336
+## 7.M336
 ### Description:
 Our bot is very friendly ... just ask FLAG .. but it only responds to !!!!!!!!!!
 
@@ -75,14 +75,14 @@ Note: Ask our bots, in the designated channels.
 ask flag to bot on discord using ```!flag```
 
 # Forensics
-## James Webb
+## 8.James Webb
 ### Description:
 We have come across an image file from a covert channel called HexagonFlags, which is known for discreetly transporting flags. Can you analyze the image and see if you can find any useful information?
 ![flag](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/flag.jpg)
 #### Solution
 use https://www.aperisolve.com/ to get flag hidden on the image
 ![jamess](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/james.png)
-## Radio Head
+## 9.Radio Head
 ### Description:
 Your team has sent you an email with an audio file that they are unable to understand. They have forwarded the file to you because you possess expertise in analyzing audio files. Your task is to uncover any hidden message within the file and provide assistance to your team.
 
@@ -92,7 +92,7 @@ Note: Write the flag as CTF{<answer>} with spaces replaced by '_'
 #### Solution
 use audacity spectogram to find the flag hidden in the given audio file
 ![radio](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/radio.png)
-## Black Box
+## 10.Black Box
 ### Description:
 Your team has assigned you the responsibility of infiltrating the enemy's server, and after extensive effort, your team has successfully gained access. Within the server, a folder has been discovered. Now, your team has tasked you with extracting all available information from this file, as they are aware that it contains significant and valuable data.
 #### Solution
@@ -108,7 +108,7 @@ en3my
 def3nd3r
 ```
 use this decoded password to open pdf file. on Beta_msg.pdf some text where redact. copy all the text ``` ctr + a ``` and paste on a text file then redact text will be visible,it contain some portion of the flag. on Mu_msg.pdf there is a image of morse code, decode it to get remaining portion of flag, merge two portion to get the flag.
-## Base HEx
+## 11.Base HEx
 ### Description:
 Robot16, your secret agent operating within the enemy base, possesses vital information that could significantly influence the outcome of the war in your favor. Unfortunately, Robot16 is currently experiencing internal problems that prevent it from translating the information. However, Robot16 managed to bring back a file. Your urgent task is to decipher the contents of this file and extract the crucial information before time runs out.
 #### Solution
@@ -140,7 +140,7 @@ https://www.pelock.com/products/steganography-online-codec####
 PASSWORD:4416
 ```
 using it we will get our flag
-## Area 51
+## 12.Area 51
 ### Description:
 As the leader of your team, you embark on a mission to seize the enemy's concealed fortress. Stay vigilant for guards who possess swift reflexes, a commanding presence, and advanced stealth technology. They have Malbolge, a language that is difficult to understand, and they are not afraid to use it. You must find a way to infiltrate the fortress and retrieve the flag.
 #### Solution
@@ -154,7 +154,7 @@ After some adjustments in above picture we got 4 QR codes https://www.aperisolve
 ![qr](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/qr.png) <br />
 By scanning QR codes we got links and combined those links to get another picture. Finally, that contained our Flag. But we had to use Superimposed image to see the hidden flag. <br />
 ![su](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/su.png)
-## Bomb
+## 13.Bomb
 ### Description:
 UnZip, Check, Repeat
 #### Solution
@@ -174,7 +174,7 @@ while(i<2048):
 
 ```
 after unzipping all the zip there contain a txt file which have our flag.
-## Come Back
+## 14.Come Back
 ### Description:
 Git is very good friend ! It commits our previous data also.
 #### Solution
@@ -184,17 +184,17 @@ In a challange we have been given a zip file. It contain ```.git``` lets go thro
 ``` git show 864c3eacfff68dd1a4ec570836213ee6afbebdf3 ``` </br></br>
 ![log](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/gitshow.png)
 # Web Exploitation
-## Robots
+## 15.Robots
 ### Description:
 Have you ever heard of bots crawling through the internet??
 #### Solution
 We have given a ```https://hexrobots.netlify.app/``` From the challange name ```robots``` its like a robots.txt go to ```https://hexrobots.netlify.app/robots.txt``` there is a path ```https://hexrobots.netlify.app/10122003.html``` go to that path we will get our flag
-## Never Gonna Give You Up
+## 16.Never Gonna Give You Up
 ### Description:
 Find what is in between the files.
 #### Solution
 we have given a link ``` https://hex-nevergonnagiveyouup.netlify.app/1.html``` while opening that link it will redirect to ```https://hex-nevergonnagiveyouup.netlify.app/2.html``` then ```https://hex-nevergonnagiveyouup.netlify.app/3.html``` and finally it will redirect to youtube video. view the source code ```view-source:https://hex-nevergonnagiveyouup.netlify.app/2.html``` flag is ready for you :)
-## Fast as Flash
+## 17.Fast as Flash
 ### Description:
 URGENT HEx-Team,
 One of the prisoners in the space prison has hacked into the Hexagon educational website and we suspect they have left a message for us. We need your assistance in locating it.
@@ -215,7 +215,7 @@ function changeText() {
 4354467B57335F525F5337314C4C5F483352337D
 ```
 decode it flag is ready for you
-## Grandma's Cookie
+## 18.Grandma's Cookie
 ### Description:
 HQ,
 
@@ -259,7 +259,7 @@ const second = "DMtbTFMay1qdTU3LW";
 const third = "ZsMDRUNS00VzR5IX0=";
 ```
 ```Q1RGe2J1Ny03aDMtbTFMay1qdTU3LWZsMDRUNS00VzR5IX0=``` decode it we will get flag
-## HEx Mainframe
+## 19.HEx Mainframe
 ### Description:
 Your team has been tipped by one of the rebels of a weak vulnerability in HEx' mainframe database. Pretending to be HEx', crack the password, and breach into its mainframe where classified information is stored. Be careful though, as HEx’ robots are always on high alert and they keep changing the password.
 Link:```https://hex-mainframe.netlify.app/```
@@ -314,7 +314,7 @@ while(i<len(name_list)):
 password is ```34r7h```
 from ```https://hex-mainframe.netlify.app/script.js``` username is ```HEX``` we got username and password login it grab the flag
 #Cryptography
-## Dora Milaje
+## 20.Dora Milaje
 ### Description:
 You have received a secret message from your commander containing instructions disguised with the phrase "from the lands of vibranium." Decrypt the code and proceed accordingly.
 
@@ -327,7 +327,7 @@ Mentioned. So I google about the letters in this script and there corresponding 
 From this I was able to decode the given code as:
 RIP Chadwick Boseman since Chadwick was the main character in this world and he is no more I was sure it is the required flag
 
-## Long Base
+## 21.Long Base
 ### Description:
 At the age of 16, my grandfather drove me to a base located next to house number 64. While there, I came across a mysterious message. My grandfather assured me that I would eventually discover its meaning. Can you assist my younger self in decrypting this message? 襃𠅆時鑧 𓁢𓈰 桨鑲鬰靟 𓄴 鐳椶 ᕽ
 #### Solution
@@ -335,7 +335,7 @@ In this challenge, we were given some Chinese like digits and some Egyptian symb
 https://www.better-converter.com/Encoders-Decoders/Base65536-Decode . Decoding from this site we got our flag<br/>
 ![bb](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/bbbb.png)
 
-## The Imitation Game
+## 22.The Imitation Game
 ### Description:
 Attention! You have been informed by your allies that there exists a crucial code that, once decrypted, could significantly aid in winning the war. Furthermore, you've learned that these types of codes were prominently employed during ancient human conflicts that transpired several decades ago. If you possess the skill and determination to become the Alan Turing of this war, unravel the code and seize the opportunity.
 
@@ -346,7 +346,7 @@ In this challenge, we were given some codes. As the topic was the imitation game
 I chose the tool as enigma machine and got the Flag.<br/>
 ![nepal](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/nepal.png)<br/>
 
-## Breaking Bad
+## 23.Breaking Bad
 ### Description:
 You discover that dangerous chemical weapons are being transported to the enemy base with the intention of using them against you and your allies. Taking matters into your own hands, you manage to seize the supplies, only to find that they are securely locked in a container that requires a passcode to open. Given the nature of these chemicals, it is crucial to handle them safely, and having some knowledge in chemistry will be advantageous. It is important to remember that all substances are made up of elements, each possessing unique chemical and physical properties, and they cannot be transformed into different substances through typical chemical reactions. As a chemistry enthusiast, your task is to decrypt the passcode.
 
@@ -368,7 +368,7 @@ COMMON:HIGHPOTENTIAL
 
 ```FLAG:CTF{HIGHPOTENTIAL}```
 
-## Dark Storm
+## 24.Dark Storm
 ### Description
 The enemy has launched an artificial hurricane in the path of your allies, with the help of a computer network named AE23444, kept hidden in a safe location at Beaufort. You have to measure the wind speed to analyze where the computer is. Decode the hidden message with the help of HEX to win the war. The message is:<br/>
 ![dark](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/dark.png)<br/>
@@ -381,7 +381,7 @@ Here  the message was in the form of color Alphabet and it was decode by using  
 ![dark2](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/dark1.png)<br/>
 FLAG:CTF{ EYE_OF_THE_STORM}
 
-## Emotions
+## 25.Emotions
 ### Description
 I have a friend who has bipolar disorder, and he seems to be attempting to communicate something. Can you assist me in deciphering his message?
 
@@ -392,7 +392,7 @@ I have a friend who has bipolar disorder, and he seems to be attempting to commu
 I assigned the happy faces by 0 and sad faces by 1 and obtain the binary value and converted obtained binary into the text and obtained the required flag.
 
 # Reverse Engineering
-## Astro World
+## 26.Astro World
 ### Description
 You have been entrusted with the task of extracting key information from a file named "STARS" that was discovered on an enemy base in sector 19. The base commander, who is now captured, had hidden important information within this file. Your team has been unable to retrieve the information so far, and now it's your responsibility to decipher it.
 #### Solution
@@ -407,7 +407,7 @@ std::cout<< decode_secret(“YYr%uLmake_reddit_api_freeN”);
 ```
 ```FLAG: CTF{>2<60C655:E02A:07C66}```
 
-## Scrambled Eggs
+## 27.Scrambled Eggs
 ### Description
 You have been assigned to infiltrate an enemy base where a secret agent is currently hiding. The agent has informed you that accessing the server requires a password, but he doesn't know what the password is. However, he has sent you a file containing information about a code. Your task is to assist your team by deciphering the password from the code provided and executing it correctly.
 ```
@@ -511,7 +511,7 @@ In the given code file we call the garbler function by passing the message varia
 FLAG: CTF{W3|c0me_70_Th3_W@RF@e}
 ```
 
-## Death Star
+## 28.Death Star
 ### Description
 In order to infiltrate the heavily secured Pinnacle Tower, our team has devised a plan to create a diversion by disabling the main server. To achieve this, we need to obtain the correct password by analyzing and executing the code provided in the file named "PINNACLE" This mission bears a resemblance to an intriguing movie plot reminiscent of "Star Wars."
 ```
@@ -569,7 +569,7 @@ decrypted_message = jedi(encrypted_message, key_for_decryption)
 print("Decrypted message: " + decrypted_message)
 
 ```
-## Macro Shot
+## 29.Macro Shot
 ### Description
 Does the ancient Word document discovered on one of the Hexagon computers contain any valuable information for us?<br/>
 ![photo](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/mq.png)<br/>
@@ -580,14 +580,14 @@ After removing 0’s:<br/>
 Ascii to text :<br/> 
 ![photo](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/macro.png)
 
-## Reverse Me
+## 30.Reverse Me
 ### Description
 Hexagon gave java a shot, and he made a simple program to authenticate users. Can you crack through it?
 #### Solution
 Opening the given java file, we find the check password function and by looking at the indices of characters in the password, we manually arranged the characters at indices 0-24 to find the flag.<br/>
 ![photo](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/reverse.png)
 
-## Banksy
+## 31.Banksy
 ### Description
 In the dumpster behind Hexagon headquarters, we stumbled upon a collection of shredded document fragments. Could you help us reconstruct the pieces and unveil the hidden message, like unraveling a Banksy artwork?
 #### Solution
