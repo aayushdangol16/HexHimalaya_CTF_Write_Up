@@ -224,3 +224,38 @@ Reconnaissance has uncovered an outdated HEx Galactics website, which may potent
 Awaiting your findings, HQ
 
 #### Solution
+Go to ```view-source:https://hex-galactics.netlify.app/``` there is ```admin.html```. In ```https://hex-galactics.netlify.app/admin.html``` put random username and password it says<br/> 
+```
+INVALID LOGIN CREDENTIALS
+PLEASE LOGIN AS ADMIN
+```
+lets check js code ```https://hex-galactics.netlify.app/js/script.js```
+```
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    let username = document.getElementById('username').value;
+    if (document.cookie === '') {
+        document.cookie = "admin=false";
+        document.cookie = `user=${username}`;
+        window.location = "denied.html" // Redirect
+    }
+    else {
+        let admin = getCookie("admin");
+        if (admin === "true") {
+            window.location = "panel.html"; // Redirect
+        }
+        else {
+            window.location = "denied.html" // Redirect
+        }
+    }
+});
+```
+in cookie if admin=true and user=admin then we will redirect to ```panel.html``` so lets manipulate the request<br/>
+![brup](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/burp.png)
+yahh we got ```js/solved.js```it contain base64 encoding
+```
+const first = "Q1RGe2J1Ny03a";
+const second = "DMtbTFMay1qdTU3LW";
+const third = "ZsMDRUNS00VzR5IX0=";
+```
+```Q1RGe2J1Ny03aDMtbTFMay1qdTU3LWZsMDRUNS00VzR5IX0=``` decode it we will get flag
