@@ -390,3 +390,19 @@ I have a friend who has bipolar disorder, and he seems to be attempting to commu
 ```
 #### Solution
 I assigned the happy faces by 0 and sad faces by 1 and obtain the binary value and converted obtained binary into the text and obtained the required flag.
+
+# Reverse Engineering
+## Astro World
+### Description
+You have been entrusted with the task of extracting key information from a file named "STARS" that was discovered on an enemy base in sector 19. The base commander, who is now captured, had hidden important information within this file. Your team has been unable to retrieve the information so far, and now it's your responsibility to decipher it.
+#### Solution
+For this there was a unwanted function called in the main().
+So I called the decoder function and cout it passing the useless  as argument the it is decoded.
+```
+int main()
+{
+std::cout<< decode_secret(“YYr%uLmake_reddit_api_freeN”);
+  return 0;
+}
+```
+```FLAG: CTF{>2<60C655:E02A:07C66}```
