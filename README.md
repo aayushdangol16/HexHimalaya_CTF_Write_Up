@@ -180,6 +180,6 @@ Git is very good friend ! It commits our previous data also.
 #### Solution
 In a challange we have been given a zip file. It contain ```.git``` lets go through git
 ``` git log ``` <br />
-![log]https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/gitlog.png
+![log](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/gitlog.png)
 ``` git show 864c3eacfff68dd1a4ec570836213ee6afbebdf3 ``` </br>
-![log]https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/gitshow.png
+![log](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/gitshow.png)
