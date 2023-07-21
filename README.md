@@ -80,3 +80,12 @@ ask flag to bot on discord using ```!flag```
 We have come across an image file from a covert channel called HexagonFlags, which is known for discreetly transporting flags. Can you analyze the image and see if you can find any useful information?
 #### Solution
 use https://www.aperisolve.com/ to get flag hidden on the image
+## Radio Head
+### Description:
+Your team has sent you an email with an audio file that they are unable to understand. They have forwarded the file to you because you possess expertise in analyzing audio files. Your task is to uncover any hidden message within the file and provide assistance to your team.
+
+(Use underscores in place of spaces.)
+
+Note: Write the flag as CTF{<answer>} with spaces replaced by '_'
+#### Solution
+use audacity spectogram to find the flag hidden in the given audio file
