@@ -73,3 +73,5 @@ Our bot is very friendly ... just ask FLAG .. but it only responds to !!!!!!!!!!
 Note: Ask our bots, in the designated channels.
 #### Solution
 ask flag to bot on discord using ```!flag```
+
+# Forensics
