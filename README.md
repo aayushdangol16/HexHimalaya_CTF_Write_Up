@@ -152,5 +152,5 @@ download image from the link
 ![allll](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/Finf_me.png)
 After some adjustments in above picture we got 4 QR codes https://www.aperisolve.com/
 ![qr](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/qr.png) <br />
-By scanning QR codes we got links and combined those links to get another picture. Finally, that contained our Flag. But we had to use Superimposed image to see the hidden flag.
+By scanning QR codes we got links and combined those links to get another picture. Finally, that contained our Flag. But we had to use Superimposed image to see the hidden flag. <br />
 ![su](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/su.png)
