@@ -319,5 +319,5 @@ from ```https://hex-mainframe.netlify.app/script.js``` username is ```HEX``` we 
 You have received a secret message from your commander containing instructions disguised with the phrase "from the lands of vibranium." Decrypt the code and proceed accordingly.
 
 Note: Enter the flag as CTF{<answer>} with spaces replaced by '_'
-photo
+![dora](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/dora.png)
 #### Solution
