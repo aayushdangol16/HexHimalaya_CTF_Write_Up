@@ -194,3 +194,24 @@ We have given a ```https://hexrobots.netlify.app/``` From the challange name ```
 Find what is in between the files.
 #### Solution
 we have given a link ``` https://hex-nevergonnagiveyouup.netlify.app/1.html``` while opening that link it will redirect to ```https://hex-nevergonnagiveyouup.netlify.app/2.html``` then ```https://hex-nevergonnagiveyouup.netlify.app/3.html``` and finally it will redirect to youtube video. view the source code ```view-source:https://hex-nevergonnagiveyouup.netlify.app/2.html``` flag is ready for you :)
+## Fast as Flash
+### Description:
+URGENT HEx-Team,
+One of the prisoners in the space prison has hacked into the Hexagon educational website and we suspect they have left a message for us. We need your assistance in locating it.
+```https://hex-education.netlify.app/```
+Best of luck, HQ
+#### Solution
+In a js file ```https://hex-education.netlify.app/assets/js/flash.js``` there is a Hex encoded string
+```
+function changeText() {
+  var _0x10b01e = _0x3feceb;
+  (document["querySelector"](_0x10b01e(0x74))[_0x10b01e(0x79)] = hex2a(
+    "4354467B57335F525F5337314C4C5F483352337D"
+  )),
+    (document[_0x10b01e(0x76)](_0x10b01e(0x74))["style"]["fontSize"] = "50px");
+}
+```
+```
+4354467B57335F525F5337314C4C5F483352337D
+```
+decode it flag is ready for you
