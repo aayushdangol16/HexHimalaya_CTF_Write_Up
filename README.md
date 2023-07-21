@@ -335,3 +335,14 @@ In this challenge, we were given some Chinese like digits and some Egyptian symb
 https://www.better-converter.com/Encoders-Decoders/Base65536-Decode . Decoding from this site we got our flag<br/>
 ![bb](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/bbbb.png)
 
+## The Imitation Game
+### Description:
+Attention! You have been informed by your allies that there exists a crucial code that, once decrypted, could significantly aid in winning the war. Furthermore, you've learned that these types of codes were prominently employed during ancient human conflicts that transpired several decades ago. If you possess the skill and determination to become the Alan Turing of this war, unravel the code and seize the opportunity.
+
+XKQKZOHUARFUEUQUBGFUFTJJHSAWVCFDRKZJG
+#### Solution
+
+In this challenge, we were given some codes. As the topic was the imitation game, I remembered about the world war and movie. So, I went to popular website dcode.fr ```https://www.dcode.fr/en ```.
+I chose the tool as enigma machine and got the Flag.<br/>
+![nepal](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/nepal.png)<br/>
+
