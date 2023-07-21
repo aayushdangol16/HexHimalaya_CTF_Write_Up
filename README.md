@@ -321,3 +321,10 @@ You have received a secret message from your commander containing instructions d
 Note: Enter the flag as CTF{<answer>} with spaces replaced by '_'
 ![dora](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/dora.png)
 #### Solution
+In this challenge I found that the problem name Dora milaje is some How related to the fictional world wakanda from a marvel moive as a phrase “from the lands of vibranium"
+Mentioned. So I google about the letters in this script and there corresponding alphabets in English language and I was able to found this <br/>
+![dora1](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/dora1.png)<br/>
+From this I was able to decode the given code as:
+RIP Chadwick Boseman since Chadwick was the main character in this world and he is no more I was sure it is the required flag
+
+
