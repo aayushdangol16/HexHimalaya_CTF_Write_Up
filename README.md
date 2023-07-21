@@ -327,4 +327,11 @@ Mentioned. So I google about the letters in this script and there corresponding 
 From this I was able to decode the given code as:
 RIP Chadwick Boseman since Chadwick was the main character in this world and he is no more I was sure it is the required flag
 
+## Long Base
+### Description:
+At the age of 16, my grandfather drove me to a base located next to house number 64. While there, I came across a mysterious message. My grandfather assured me that I would eventually discover its meaning. Can you assist my younger self in decrypting this message? 襃𠅆時鑧 𓁢𓈰 桨鑲鬰靟 𓄴 鐳椶 ᕽ
+#### Solution
+In this challenge, we were given some Chinese like digits and some Egyptian symbols. After a quick bit of googling, I found that these were Base65536 codes. So, I went to this website
+https://www.better-converter.com/Encoders-Decoders/Base65536-Decode . Decoding from this site we got our flag<br/>
+![bb](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/bbbb.png)
 
