@@ -154,3 +154,23 @@ After some adjustments in above picture we got 4 QR codes https://www.aperisolve
 ![qr](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/qr.png) <br />
 By scanning QR codes we got links and combined those links to get another picture. Finally, that contained our Flag. But we had to use Superimposed image to see the hidden flag. <br />
 ![su](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/su.png)
+## Bomb
+### Description:
+UnZip, Check, Repeat
+#### Solution
+In a challange we have been given a zip file. Name of the zip file was ``` Zipped2048``` inside that zip file there is another zip file named ``` Zipped2047```.The number in the file is like there is 2048 zip file, its like we have to unzip all that zip so lets automate
+```
+from zipfile import ZipFile
+import os
+os.chdir("boom")
+i=0
+while(i<2048):
+    a=os.listdir()
+    i=i+1
+    print(a[0])
+    with ZipFile(a[0], 'r') as zip:
+        zip.printdir()
+        zip.extractall()
+
+```
+after unzipping all the zip there contain a txt file which have our flag.
