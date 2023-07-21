@@ -510,3 +510,61 @@ In the given code file we call the garbler function by passing the message varia
 ```
 FLAG: CTF{W3|c0me_70_Th3_W@RF@e}
 ```
+
+## Death Star
+### Description
+In order to infiltrate the heavily secured Pinnacle Tower, our team has devised a plan to create a diversion by disabling the main server. To achieve this, we need to obtain the correct password by analyzing and executing the code provided in the file named "PINNACLE" This mission bears a resemblance to an intriguing movie plot reminiscent of "Star Wars."
+```
+# We are recieving some sort of message but I am not sure what it is. 
+# It goes something like MLP{DZOXYJMWSKCLBGXYGADZIGE}
+# we recieved the information about the key, it has something to do with the starting date of the event.
+
+def jedi(stormtrooper, key):
+    """A secret message is sent through the Force using the Jedi cipher."""
+    saber = ""
+    for char in stormtrooper:
+        if char.isalpha():
+            # A Jedi's power is determined by the key value
+            shift = ord(key[0].upper()) - ord('A')
+            # The Force is strong with this one
+            char = chr((ord(char.upper()) - ord('A') + shift) % 26 + ord('A'))
+        saber += char
+        # The key is constantly changing, like the Force
+        key = key[1:] + key[0]
+    return saber
+
+
+stormtrooper = input("Enter a transmission to the Jedi : ")
+key = (input("Enter the key for the Jedi transmission: "))
+
+saber = jedi(stormtrooper, key)
+print("Jedied message: " + saber)
+```
+#### Solution
+solution script
+```
+def jedi(stormtrooper, key):
+    """A secret message is sent through the Force using the Jedi cipher."""
+    saber = ""
+    for char in stormtrooper:
+        if char.isalpha():
+            # A Jedi's power is determined by the key value
+            shift = ord(key[0].upper()) - ord('A')
+            # The Force is strong with this one
+            char = chr((ord(char.upper()) - ord('A') - shift) % 26 + ord('A'))
+        saber += char
+        # The key is constantly changing, like the Force
+        key = key[1:] + key[0]
+    return saber
+
+# Assuming you have the correct key for decryption
+key_for_decryption = input("Enter the key for decryption: ")
+
+# Encrypted message to be decrypted
+encrypted_message = "MLP{DZOXYJMWSKCLBGXYGADZIGE}"
+
+# Decoding the message
+decrypted_message = jedi(encrypted_message, key_for_decryption)
+print("Decrypted message: " + decrypted_message)
+
+```
