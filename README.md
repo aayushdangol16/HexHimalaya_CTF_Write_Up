@@ -1,4 +1,11 @@
 # HexHimalaya_CTF_Write_Up (By Team JERRY)
+## Teams Members
+1.Aayush Dangol
+2.Dipesh Thapa
+3.Abiral Bhattarai
+4.Kabin Giri
+(PACE CLUB ACEM)
+
 # Getting Started
 ## 1.Learn to submit flag
 ### Description:
