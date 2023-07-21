@@ -103,4 +103,4 @@ decode the mu and pwd
 en3my
 def3nd3r
 ```
-use this decoded password to open pdf file
+use this decoded password to open pdf file. on Beta_msg.pdf some text where redact. copy all the text ``` ctr + a ``` and paste on a text file then redact text will be visible,it contain some portion of the flag. on Mu_msg.pdf there is a image of morse code, decode it to get remaining portion of flag, merge the two portion to get the flag.
