@@ -1,9 +1,9 @@
 # HexHimalaya_CTF_Write_Up (By Team JERRY)
 ## Teams Members
-1.Aayush Dangol
-2.Dipesh Thapa
-3.Abiral Bhattarai
-4.Kabin Giri
+1.Aayush Dangol<br/>
+2.Dipesh Thapa<br/>
+3.Abiral Bhattarai<br/>
+4.Kabin Giri<br/>
 (PACE CLUB ACEM)
 
 # Getting Started
