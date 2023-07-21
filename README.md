@@ -541,6 +541,7 @@ saber = jedi(stormtrooper, key)
 print("Jedied message: " + saber)
 ```
 #### Solution
+```key_for_decryption=19```
 solution script
 ```
 def jedi(stormtrooper, key):
