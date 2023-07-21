@@ -81,6 +81,7 @@ We have come across an image file from a covert channel called HexagonFlags, whi
 ![flag](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/flag.jpg)
 #### Solution
 use https://www.aperisolve.com/ to get flag hidden on the image
+![jamess](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/james.png)
 ## Radio Head
 ### Description:
 Your team has sent you an email with an audio file that they are unable to understand. They have forwarded the file to you because you possess expertise in analyzing audio files. Your task is to uncover any hidden message within the file and provide assistance to your team.
