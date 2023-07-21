@@ -65,3 +65,11 @@ On this page, it is possible to download a CSV with the trade history for this c
 So the flag is:
 
 CTF{0xfdef5b6f6dece6b29695b9fd8d0cadaff944876e598fd443125e1f8c2db15160}
+# Miscellaneous
+## M336
+### Description:
+Our bot is very friendly ... just ask FLAG .. but it only responds to !!!!!!!!!!
+
+Note: Ask our bots, in the designated channels.
+#### Solution
+ask flag to bot on discord using ```!flag```
