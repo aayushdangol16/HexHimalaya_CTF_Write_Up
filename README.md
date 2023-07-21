@@ -98,3 +98,9 @@ unzip the given zip file there is a image and two pdf file protected by a passwo
 mu : E09B4AFC22A3E578D77A90D73363C8A5
 pwd : EFBE43500C80151A5D7608400FD21BB9
 ```
+decode the mu and pwd 
+```
+en3my
+def3nd3r
+```
+use this decoded password to open pdf file
