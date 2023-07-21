@@ -144,9 +144,13 @@ using it we will get our flag
 ### Description:
 As the leader of your team, you embark on a mission to seize the enemy's concealed fortress. Stay vigilant for guards who possess swift reflexes, a commanding presence, and advanced stealth technology. They have Malbolge, a language that is difficult to understand, and they are not afraid to use it. You must find a way to infiltrate the fortress and retrieve the flag.
 #### Solution
-text file is given in this challange that contain strings. https://malbolge.doleczek.pl/ used to get the drive link 
+After a quick bit of Googling, I found that, this text is Malbolge code. So I compiled it with Malbolge Online Compiler and upon execution I got this link.
 ```
 https://drive.google.com/drive/folders/1gOkKD88UlEnx_OxOh-NDDEGwTP8Wkszb?usp=sharing
 ```
 download image from the link
 ![allll](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/Finf_me.png)
+After some adjustments in above picture we got 4 QR codes https://www.aperisolve.com/
+![qr](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/qr.png)
+By scanning QR codes we got links and combined those links to get another picture. Finally, that contained our Flag. But we had to use Superimposed image to see the hidden flag.
+![su](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/su.png)
