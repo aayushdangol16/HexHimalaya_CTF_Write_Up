@@ -367,3 +367,16 @@ COMMON:HIGHPOTENTIAL
 ```
 
 ```FLAG:CTF{HIGHPOTENTIAL}```
+
+## Dark Storm
+### Description
+The enemy has launched an artificial hurricane in the path of your allies, with the help of a computer network named AE23444, kept hidden in a safe location at Beaufort. You have to measure the wind speed to analyze where the computer is. Decode the hidden message with the help of HEX to win the war. The message is:<br/>
+![dark](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/dark.png)<br/>
+Note: Enter the flag as CTF{<answer>} with spaces replaced by '_'
+#### Solution
+
+Here  the message was in the form of color Alphabet and it was decode by using  this refrence:<br/>
+![dark1](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/dark1.png)<br/>
+<br/>And found to be DGT TZ EAA FOQGV the it was decoded as:<br/>
+![dark2](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/dark1.png)<br/>
+FLAG:CTF{ EYE_OF_THE_STORM}
