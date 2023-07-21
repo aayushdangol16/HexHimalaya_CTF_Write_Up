@@ -148,4 +148,5 @@ text file is given in this challange that contain strings. https://malbolge.dole
 ```
 https://drive.google.com/drive/folders/1gOkKD88UlEnx_OxOh-NDDEGwTP8Wkszb?usp=sharing
 ```
-
+download image from the link
+![allll](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/Finf_me.png)
