@@ -1,5 +1,12 @@
 # HexHimalaya_CTF_Write_Up
+# Getting Started
+## Learn to submit flag
+### Description:
+Flags are case sensitive and all flags should be wrapped in CTF{<answer>}.
 
+Type CTF{THIS_IS_A_FLAG} in the box below.
+#### Solution
+In description there is a flag
 
 
 
