@@ -385,7 +385,7 @@ Note: Enter the flag as CTF{<answer>} with spaces replaced by '_'
 Here  the message was in the form of color Alphabet and it was decode by using  this refrence:<br/>
 ![dark1](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/dark1.png)<br/>
 <br/>And found to be DGT TZ EAA FOQGV the it was decoded as:<br/>
-![dark2](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/dark1.png)<br/>
+![dark2](https://github.com/aayushdangol16/HexHimalaya_CTF_Write_Up/blob/main/photo/dark2.png)<br/>
 FLAG:CTF{ EYE_OF_THE_STORM}
 
 ## 25.Emotions
