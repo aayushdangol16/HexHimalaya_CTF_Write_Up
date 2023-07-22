@@ -320,7 +320,7 @@ while(i<len(name_list)):
 ```
 password is ```34r7h```
 from ```https://hex-mainframe.netlify.app/script.js``` username is ```HEX``` we got username and password login it grab the flag
-#Cryptography
+# Cryptography
 ## 20.Dora Milaje
 ### Description:
 You have received a secret message from your commander containing instructions disguised with the phrase "from the lands of vibranium." Decrypt the code and proceed accordingly.
