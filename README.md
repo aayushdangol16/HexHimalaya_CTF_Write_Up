@@ -57,6 +57,7 @@ One of our crucial local transportation vehicle was stolen! Help us find the cur
  Eg. for Riya Manoj and Stan Philip the flag is Riya_Stan)
 ```
 from the given image we find aircraft number , using that number we find the company that owns the aircraft on https://opencorporates.com/companies/us_ak/10019092 the flag was the names of the owners
+```FLAG: CTF{JOHN_REGAN}```
 
 ## 6.Crypto Zoo
 ### Description:
